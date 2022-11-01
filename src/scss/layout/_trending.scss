@@ -1,0 +1,44 @@
+@use 'base/variables' as v;
+
+.trend {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30rem;
+
+	.image {
+		margin-right: 10rem;
+	}
+
+	img {
+		width: 110rem;
+	}
+}
+
+.trend-info {
+	margin-left: 20rem;
+
+	span {
+		display: block;
+		color: v.$azul-g;
+		margin-bottom: 10rem;
+		font-size: 40rem;
+		font-weight: bold;
+	}
+
+	a {
+		font-size: 18rem;
+		font-weight: 800;
+		margin-bottom: 10rem;
+		color: v.$azul-mo;
+
+		&:hover {
+			color: v.$rojo-s;
+		}
+	}
+
+	p {
+		line-height: 2;
+		font-size: 15rem;
+		color: v.$azul-mo;
+	}
+}

@@ -1,0 +1,41 @@
+@use 'base/variables' as v;
+
+.news {
+	padding: 20rem;
+	background-color: v.$azul-mo;
+
+	h2 {
+		color: v.$naranja-s;
+	}
+}
+
+.new {
+	border-bottom: 1px solid v.$azul-g;
+
+	&:last-child {
+		border-bottom: none;
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		display: block;
+		margin-top: 30rem;
+		margin-bottom: 10rem;
+		font-weight: 700;
+		font-size: 22rem;
+		color: v.$blanco;
+
+		&:hover {
+			color: v.$naranja-s;
+		}
+	}
+
+	p {
+		color: v.$azul-g;
+		margin-bottom: 30rem;
+		line-height: 2;
+	}
+}

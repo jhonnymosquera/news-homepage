@@ -1,0 +1,55 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.homepage {
+	.popular,
+	.news,
+	.trending {
+		margin-bottom: 50rem;
+	}
+
+	@include m.movil {
+		display: grid;
+		grid-template-areas:
+			'popular-image popular-image news'
+			'popular-image popular-image news'
+			'popular popular news'
+			'trending trending trending'
+			'footer footer footer';
+
+		gap: 20rem;
+
+		.popular,
+		.news,
+		.trending {
+			margin-bottom: 0rem;
+		}
+
+		.popular-image {
+			grid-area: popular-image;
+		}
+
+		.popular {
+			grid-area: popular;
+		}
+
+		.popular-info {
+			display: flex;
+			margin-top: 20rem;
+		}
+
+		.news {
+			grid-area: news;
+		}
+
+		.trending {
+			grid-area: trending;
+			display: flex;
+			gap: 22rem;
+		}
+
+		.footer {
+			grid-area: footer;
+		}
+	}
+}

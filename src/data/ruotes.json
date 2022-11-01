@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"rute": "/",
+		"name": "Home"
+	},
+	{
+		"id": 2,
+		"rute": "/new",
+		"name": "New"
+	},
+	{
+		"id": 3,
+		"rute": "/popular",
+		"name": "Popular"
+	},
+	{
+		"id": 4,
+		"rute": "/trending",
+		"name": "Trending"
+	},
+	{
+		"id": 5,
+		"rute": "/categories",
+		"name": "Categories"
+	}
+]

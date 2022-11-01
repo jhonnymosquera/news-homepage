@@ -1,0 +1,34 @@
+@use 'base/variables' as v;
+
+.popular {
+	.h1 {
+		padding-right: 20rem;
+
+		h1 {
+			font-weight: 800;
+		}
+	}
+
+	p {
+		color: v.$azul-go;
+	}
+}
+
+.button-link {
+	display: block;
+	padding: 20rem;
+	width: 200rem;
+	margin-top: 30rem;
+	color: v.$blanco-c;
+	background-color: v.$rojo-s;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 5rem;
+	text-align: center;
+
+	transition: all 500ms;
+
+	&:hover {
+		background-color: v.$azul-mo;
+	}
+}
