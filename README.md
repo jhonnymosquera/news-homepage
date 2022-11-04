@@ -28,7 +28,7 @@ Los usuarios deben ser capaces de:
 
 ### Captura de pantalla
 
-![](./public/page.png)
+![](./public/page.PNG)
 
 ### Enlaces
 
