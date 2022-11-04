@@ -32,7 +32,7 @@ Los usuarios deben ser capaces de:
 
 ### Enlaces
 
-- URL de la solución: [https://splitter-tipcalculator.netlify.app/](https://splitter-tipcalculator.netlify.app/)
+- URL de la solución: [news homepage](https://news-homepage-jjmm.netlify.app/)
 
 ## My process
 
