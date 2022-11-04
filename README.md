@@ -14,7 +14,6 @@ Esta es una solución al [Desafío de la página de inicio de noticias en Fronte
   - [Desarrollo continuo](#desarrollo-continuo)
   - [Recursos útiles](#recursos-útiles)
 - [Autor](#autor)
-- [Agradecimientos](#agradecimientos)
 
 ## Visión general
 
