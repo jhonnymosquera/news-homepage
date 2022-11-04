@@ -6,10 +6,10 @@ Esta es una solución al [Desafío de la página de inicio de noticias en Fronte
 
 - [Resumen](#resumen)
   - [El reto](#el-reto)
-  - [Captura de pantalla](#captura de pantalla)
+  - [Captura de pantalla](#captura-de-pantalla)
   - [Enlaces](#enlaces)
 - [Mi proceso](#mi-proceso)
-  - [Construido con](#construido con)
+  - [Construido con](#construido-con)
   - [Lo que aprendí](#lo-que-aprendí)
   - [Desarrollo continuo](#desarrollo-continuo)
   - [Recursos útiles](#recursos-útiles)
