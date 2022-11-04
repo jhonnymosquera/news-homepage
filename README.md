@@ -33,8 +33,6 @@ Los usuarios deben ser capaces de:
 
 - URL de la solución: [news homepage](https://news-homepage-jjmm.netlify.app/)
 
-## My process
-
 ## Mi proceso
 
 ### Construido con
