@@ -1,5 +1,5 @@
 function Footer() {
-	return <footer className="footer">create by jhonnymosquera.web@gmail.com</footer>;
+	return <footer className="footer">by jhonnymosquera.web@gmail.com</footer>;
 }
 
 export default Footer;
