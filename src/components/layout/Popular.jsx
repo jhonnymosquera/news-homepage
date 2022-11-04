@@ -1,17 +1,15 @@
-import { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import { Context } from '../../context/Context';
+import useAppContext from '../../context/useAppContext';
 
 function Popular() {
-	const { popular, isMobile } = useContext(Context);
+	const { popular, isMobile, Link } = useAppContext();
 	const { title, description, image } = popular;
+
+	const popularImage = isMobile ? image.mobil : image.desktop;
 
 	return (
 		<>
 			<div className="popular-image">
-				<picture>
-					<img srcSet={isMobile ? image.mobil : image.desktop} alt={image.alt} />
-				</picture>
+				<img srcSet={popularImage} alt={image.alt} />
 			</div>
 
 			<div className="popular">

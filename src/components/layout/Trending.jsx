@@ -1,9 +1,8 @@
-import { useContext } from 'react';
-import { Context } from '../../context/Context';
+import useAppContext from '../../context/useAppContext';
 import Trend from './Trend';
 
 function Trending() {
-	const { trending } = useContext(Context);
+	const { trending } = useAppContext();
 
 	return (
 		<section className="trending">

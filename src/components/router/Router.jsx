@@ -11,7 +11,7 @@ function Router() {
 		<>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
-				<Route path="/new" element={<NewPage />}></Route>
+				<Route path="/new" element={<NewPage />} />
 				<Route path="/popular" element={<PopularPage />} />
 				<Route path="/trending" element={<TrendigPage />} />
 				<Route path="/categories" element={<CategoriesPage />} />

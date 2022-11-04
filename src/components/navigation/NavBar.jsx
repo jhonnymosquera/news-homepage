@@ -1,10 +1,8 @@
-import { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import { Context } from '../../context/Context';
+import useAppContext from '../../context/useAppContext';
 import NavBarLinks from './NavBarLinks';
 
 function NavBar() {
-	const { logo, routes, menuActive, menuDisplay, handleButton, isMobile } = useContext(Context);
+	const { logo, routes, menuActive, menuDisplay, handleButton, isMobile, Link } = useAppContext();
 
 	return (
 		<header className="header">

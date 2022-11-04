@@ -1,9 +1,8 @@
-import { useContext } from 'react';
-import { Context } from '../../context/Context';
+import useAppContext from '../../context/useAppContext';
 import NewI from './NewI';
 
 function News() {
-	const { news } = useContext(Context);
+	const { news } = useAppContext();
 
 	return (
 		<section className="news">

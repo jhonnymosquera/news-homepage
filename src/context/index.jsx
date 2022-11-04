@@ -8,11 +8,13 @@ import menuClose from '../../public/icon-menu-close.svg';
 import menu from '../../public/icon-menu.svg';
 import buildingPage from '../assets/img/website-construction.jpg';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-function ContexProvider(props) {
+function ContexProvider({ children }) {
 	const [menuState, setMenuState] = useState(false);
 	const menuActive = menuState ? menuClose : menu;
 	const menuDisplay = menuState ? 'menu-active' : '';
+
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 	const isMobile = windowWidth < 475;
 
@@ -37,9 +39,10 @@ function ContexProvider(props) {
 				handleButton,
 				buildingPage,
 				isMobile,
+				Link,
 			}}
 		>
-			{props.children}
+			{children}
 		</Context.Provider>
 	);
 }
