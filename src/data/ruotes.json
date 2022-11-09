@@ -6,22 +6,22 @@
 	},
 	{
 		"id": 2,
-		"rute": "/new",
+		"rute": "new",
 		"name": "New"
 	},
 	{
 		"id": 3,
-		"rute": "/popular",
+		"rute": "popular",
 		"name": "Popular"
 	},
 	{
 		"id": 4,
-		"rute": "/trending",
+		"rute": "trending",
 		"name": "Trending"
 	},
 	{
 		"id": 5,
-		"rute": "/categories",
+		"rute": "categories",
 		"name": "Categories"
 	}
 ]
