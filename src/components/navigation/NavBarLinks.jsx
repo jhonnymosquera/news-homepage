@@ -5,7 +5,7 @@ function NavBarLinks({ route }) {
 
 	return (
 		<li>
-			<NavLink reloadDocument to={rute} end>
+			<NavLink to={rute} end>
 				{name}
 			</NavLink>
 		</li>
