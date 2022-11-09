@@ -10,12 +10,12 @@ function Router() {
 	return (
 		<>
 			<Routes>
-				<Route path="/" element={<HomePage />} />
-				<Route path="/new" index element={<NewPage />} />
-				<Route path="/popular" element={<PopularPage />} />
-				<Route path="/trending" element={<TrendigPage />} />
-				<Route path="/categories" element={<CategoriesPage />} />
-				<Route path="*" element={<NoFundPage />} />
+				<Route path="/" end element={<HomePage />} />
+				<Route path="/new" end element={<NewPage />} />
+				<Route path="/popular" end element={<PopularPage />} />
+				<Route path="/trending" end element={<TrendigPage />} />
+				<Route path="/categories" end element={<CategoriesPage />} />
+				<Route path="*" end element={<NoFundPage />} />
 			</Routes>
 		</>
 	);
