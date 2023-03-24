@@ -65,10 +65,6 @@ Este proyecto tuve oportunidad de seguir aprendiendo sobre react-router-dom para
 
 Para mis siguientes proyectos, voy empezar a utilizar el hook useReducer para un mejor escalado de mis aplicaciones.
 
-### Recursos útiles
-
-- [Función onChange y onBlur](https://bluuweb.github.io/react/formularios/) - Este es un artículo increíble que me permitió reducir el código. Esta función me ayudó a escuchar los cambios en todas las entradas en lugar de hacer una función para cada una de ellas.
-
 ## Author
 
 - Frontend Mentor - [@jhonnymosquera](https://www.frontendmentor.io/profile/jhonnymosquera)
